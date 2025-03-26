@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-100 text-gray-900">
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white py-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Your Brand</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#features" class="hover:text-blue-300">Features</a></li>
+                    <li><a href="#contact" class="hover:text-blue-300">Contact</a></li>
+                    <li><a href="#cta" class="hover:text-blue-300">Call to Action</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-16 text-center">
+        <h2 class="text-4xl font-bold mb-4">Welcome to Your Business</h2>
+        <p class="text-xl mb-8">We provide solutions that help your business grow and succeed.</p>
+        <a href="#cta" class="bg-yellow-500 text-black py-3 px-6 rounded-full text-lg font-semibold hover:bg-yellow-400">Get Started</a>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 bg-white">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-semibold mb-12">Our Features</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="p-6 bg-gray-100 rounded-lg shadow-lg">
+                    <h4 class="text-xl font-bold mb-4">Feature 1</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+                </div>
+                <div class="p-6 bg-gray-100 rounded-lg shadow-lg">
+                    <h4 class="text-xl font-bold mb-4">Feature 2</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+                </div>
+                <div class="p-6 bg-gray-100 rounded-lg shadow-lg">
+                    <h4 class="text-xl font-bold mb-4">Feature 3</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-semibold mb-8">Get in Touch</h3>
+            <form action="#" class="max-w-lg mx-auto">
+                <input type="text" class="w-full p-4 mb-4 rounded-md border-2 border-gray-300" placeholder="Your Name" required>
+                <input type="email" class="w-full p-4 mb-4 rounded-md border-2 border-gray-300" placeholder="Your Email" required>
+                <textarea class="w-full p-4 mb-4 rounded-md border-2 border-gray-300" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit" class="bg-blue-600 text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-blue-500">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="cta" class="bg-blue-600 text-white py-16 text-center">
+        <h2 class="text-4xl font-bold mb-4">Ready to Grow Your Business?</h2>
+        <p class="text-xl mb-8">Join us today and take the first step towards success.</p>
+        <a href="#contact" class="bg-yellow-500 text-black py-3 px-6 rounded-full text-lg font-semibold hover:bg-yellow-400">Sign Up Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6 text-center">
+        <p>&copy; 2025 Your Brand. All rights reserved.</p>
+    </footer>
+</body>
+</html>
